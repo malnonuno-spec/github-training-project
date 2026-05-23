@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!-- 
+  Project: Personal Portfolio Page
+  Author: Mohammed Refat Sami Refat Al-Nono
+  Instructor: Eng. Samer Al-Yaghi
+  Institution: University College of Applied Sciences
+  Major: Web Development & Building
+  Language: Bilingual (AR/EN)
+  Standards: HTML5, CSS3, Responsive Design, Accessibility
+-->
+<html lang="ar" dir="rtl">
+<head>
+    <!-- Meta Tags for SEO & Responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio page for Web Development student">
+    <meta name="author" content="Mohammed Refat Sami Refat Al-Nono">
+    
+    <title>ملفي الشخصي | Personal Portfolio</title>
+    
+    <!-- External Stylesheet Link -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Google Fonts for Professional Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===================== NAVBAR SECTION ===================== -->
+    <!-- Navigation bar with bilingual support and smooth scroll -->
+    <header class="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="container navbar-container">
+            <!-- Logo/Brand -->
+            <a href="#" class="logo">
+                <span class="logo-ar">ملفي المهني</span>
+                <span class="logo-en">My Portfolio</span>
+            </a>
+            
+            <!-- Navigation Links -->
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">
+                        <span class="nav-ar">الرئيسية</span>
+                        <span class="nav-en">Home</span>
+                    </a></li>
+                    <li><a href="#about" class="nav-link">
+                        <span class="nav-ar">عنّي</span>
+                        <span class="nav-en">About</span>
+                    </a></li>
+                    <li><a href="#academic" class="nav-link">
+                        <span class="nav-ar">البيانات الأكاديمية</span>
+                        <span class="nav-en">Academic Info</span>
+                    </a></li>
+                    <li><a href="#contact" class="nav-link">
+                        <span class="nav-ar">تواصل</span>
+                        <span class="nav-en">Contact</span>
+                    </a></li>
+                </ul>
+            </nav>
+            
+            <!-- Language Toggle Button (CSS-only visual indicator) -->
+            <button class="lang-toggle" aria-label="Toggle Language">
+                <span class="lang-ar">عربي</span>
+                <span class="lang-en">EN</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===================== HERO / MAIN CONTENT ===================== -->
+    <main class="hero-section" id="home">
+        <div class="container">
+            <!-- Profile Card with Modern CSS Effects -->
+            <article class="profile-card" aria-labelledby="profile-heading">
+                <!-- Student Name - Bilingual -->
+                <h1 id="profile-heading" class="profile-name">
+                    <span class="name-ar">محمد رفعت سامي رفعت النونو</span>
+                    <span class="name-en">Mohammed Refat Sami Refat Al-Nono</span>
+                </h1>
+                
+                <!-- Role/Title -->
+                <p class="profile-role">
+                    <span class="role-ar">طالب تطوير ويب | مصمم واجهات</span>
+                    <span class="role-en">Web Development Student | UI Designer</span>
+                </p>
+                
+                <!-- Professional Bio - Bilingual -->
+                <p class="profile-bio">
+                    <span class="bio-ar">أسعى لتطوير مهاراتي في بناء مواقع ويب حديثة، مع التركيز على تجربة المستخدم، الكود النظيف، والمعايير القياسية العالمية.</span>
+                    <span class="bio-en">Passionate about building modern web applications with focus on user experience, clean code, and international web standards.</span>
+                </p>
+                
+                <!-- Academic Information Section -->
+                <section class="academic-info" id="academic" aria-label="Academic Details">
+                    <h2 class="section-title">
+                        <span class="title-ar">البيانات الأكاديمية</span>
+                        <span class="title-en">Academic Information</span>
+                    </h2>
+                    
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <span class="info-label">
+                                <span class="label-ar">الكلية</span>
+                                <span class="label-en">College</span>
+                            </span>
+                            <span class="info-value">
+                                <span class="value-ar">الكلية الجامعية للعلوم التطبيقية</span>
+                                <span class="value-en">University College of Applied Sciences</span>
+                            </span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <span class="info-label">
+                                <span class="label-ar">التخصص</span>
+                                <span class="label-en">Major</span>
+                            </span>
+                            <span class="info-value">
+                                <span class="value-ar">تطوير وبناء مواقع الويب</span>
+                                <span class="value-en">Web Development & Building</span>
+                            </span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <span class="info-label">
+                                <span class="label-ar">المدرب</span>
+                                <span class="label-en">Instructor</span>
+                            </span>
+                            <span class="info-value">
+                                <span class="value-ar">م. سامر الياغي</span>
+                                <span class="value-en">Eng. Samer Al-Yaghi</span>
+                            </span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <span class="info-label">
+                                <span class="label-ar">المهارات</span>
+                                <span class="label-en">Skills</span>
+                            </span>
+                            <span class="info-value">
+                                <span class="value-ar">HTML5, CSS3, Git, Responsive Design</span>
+                                <span class="value-en">HTML5, CSS3, Git, Responsive Design</span>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Contact CTA -->
+                <div class="contact-cta" id="contact">
+                    <a href="mailto:student@ucas.edu.ps" class="btn btn-primary">
+                        <span class="btn-ar">راسلني</span>
+                        <span class="btn-en">Contact Me</span>
+                    </a>
+                </div>
+                
+            </article>
+        </div>
+    </main>
+
+    <!-- ===================== FOOTER SECTION ===================== -->
+    <!-- Semantic footer with copyright and academic attribution -->
+    <footer class="footer" role="contentinfo">
+        <div class="container footer-container">
+            <p class="copyright">
+                <span class="copyright-ar">&copy; 2026 جميع الحقوق محفوظة | مشروع تكليف دراسي</span>
+                <span class="copyright-en">&copy; 2026 All Rights Reserved | Academic Assignment Project</span>
+            </p>
+            <p class="attribution">
+                <span class="attr-ar">إشراف: م. سامر الياغي - الكلية الجامعية للعلوم التطبيقية</span>
+                <span class="attr-en">Supervised by: Eng. Samer Al-Yaghi - UCAS</span>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
