@@ -490,3 +490,9 @@ Centralized design tokens for easy theming
         scroll-behavior: auto;
     }
     }
+
+    .info-item:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+    transition: all 0.3s ease;
+    }
